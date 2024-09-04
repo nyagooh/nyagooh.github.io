@@ -1,0 +1,44 @@
+
+/* DORIK BRANDING */
+.dorik-branding-wrapper {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 3px;
+}
+.dorik-branding {
+    gap: 4px;
+    z-index: 1;
+    display: flex;
+    border: unset;
+    outline: unset;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 4px;
+    background: #272727;
+    font-family: -apple-system, system-ui, 'Segoe UI', Helvetica, Arial,
+        sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+.dorik-branding a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+.dorik-branding .flag {
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    color: #ff4d4f;
+}
+.dorik-branding:after,
+.dorik-branding:before {
+    z-index: -1;
+    content: '';
+    inset: 0;
+    border-radius: 4px;
+    position: absolute;
+}
